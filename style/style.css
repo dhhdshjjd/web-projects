@@ -1,5 +1,8 @@
 .header{
     background-image:url(../Assets/Hero-bg.png) ;
+    height: 500px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -24,25 +27,71 @@
     color:#4E47FF ;
 
 }
-/* banner style */
-.banner{
-    display: flex;
+ 
 
-    justify-content: center;
+  .banner{
+    text-align: center;
+    padding-top: 60px;
+    width: 900px;
+    height:230px;
+    margin: 0 auto;
+  }
+  .banner button {        
+     
+      height: 48px;
+    width: 174px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;}
 
-     align-items: center;
-     margin: 0 auto;
-    max-width:905px;
-    height:237px;
     
+    /* banner section */
 
+    main{
+        height: 328px;
+        max-width: 1140px;
+         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+
+    main div button{
+        width: 230px;
+        height: 48px;
+        color:#FFFFFF ;
+        background-color: #4E47FF;
+        border-radius: 10px;
+        border: none;
+
+    }
+    main div h2{
+        width: 517px;
+        height: 49px;
+        color: red
+       
+    }
+    main div p{
+        width:517px ;
+        height:60px ;
+        color: #252432;
+          font-size: 23px;
+    }
+
+    .leftsection{
+         
+        width: 48%;
+         
+
+    }
+    .rightsection{
+        border: 1px solid blue;
+         width: 48%;
+         height: 250px;
+         max-width: 403px;
+         border-radius: 10px;
+    }
     
      
-      
-}
-.banner div h1 {
-    font-size:  700px;
-     font-weight:  65px;
-     color: #000;
-     line-height: 72px;
-}
