@@ -93,5 +93,78 @@
          max-width: 403px;
          border-radius: 10px;
     }
+
+   /* footer */
+   .section-title{
+
+    font-size: 38px;
+    font-weight:  400px;
+    color:white;
+
+
+   }
+   .secondary-bg{
+    background-color: #4E47FF;
+     max-width:  1140px;
+    height: 306px;
+    margin: 0 auto;
+     border-radius: 24px;
+       text-align: center;
+      padding: 20px 30px ;
+   
+     
+     
+   }
+
+
+   /* footer */
+   
+     
+
+   
+
+
+   /* about style */
+   .about{
     
      
+   }
+   .about-items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+
+
+
+    
+    
+   }
+   .about-item{
+    width: 180px;
+    height: 120px;
+     text-align: center;
+     margin: o auto;
+     
+   }
+
+
+   .item-title{
+    font-size: 20px;
+     
+     
+    color: chartreuse;
+    
+   }
+   
+
+   .item-description{
+    font-size: 80px;
+    align-items: center;
+
+     
+    
+
+   }
+ 
+   
